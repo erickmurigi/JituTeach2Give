@@ -1,0 +1,144 @@
+/* Reset and General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 1rem;
+  }
+  
+  /* Main Content */
+  main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+  }
+  .paragraph{
+    align-items: flex-start;
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translateY(-50%);
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    align-items:baseline;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: brown;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin-top: 1rem;
+    width: 20%;
+    height: 10%;
+  }
+  
+  /* Sidebar */
+  .sidebar-item {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .sidebar-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar-item p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Featured Articles */
+  .featured-articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .article {
+    background-color: #f5f5f5;
+    padding: 1rem;
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .article-info {
+    margin-top: 1rem;
+  }
+  
+  .article-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5a5f;
+  }
+  
+  .article-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
